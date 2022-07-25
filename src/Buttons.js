@@ -1,7 +1,7 @@
 import React from 'react';
 import Data from './Data';
 
-export const Buttons = ({setItem, menuItems , filterItem}) => {
+export const Buttons = ({setItem, menuItems , filterItem , searchItem}) => {
     // console.log("line 5" , menuItems)
   return (
     <div className='d-flex justify-content-center'>
@@ -17,10 +17,13 @@ export const Buttons = ({setItem, menuItems , filterItem}) => {
                             onClick={()=> filterItem(val)}
                             >
                                 {val}
-                            </button> 
+                            </button>         
                     )
                 })
         }
+        <input type="search" placeholder='Search an item' className='mx-4-5 my-3 px-2'
+        onClick={searchItem}
+        />
                      
     </div>
   )
