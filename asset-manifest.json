@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/foods-app-react/static/css/main.9afeb671.css",
+    "main.js": "/foods-app-react/static/js/main.e862a7c6.js",
+    "static/js/787.bc0fe9d4.chunk.js": "/foods-app-react/static/js/787.bc0fe9d4.chunk.js",
+    "index.html": "/foods-app-react/index.html",
+    "main.9afeb671.css.map": "/foods-app-react/static/css/main.9afeb671.css.map",
+    "main.e862a7c6.js.map": "/foods-app-react/static/js/main.e862a7c6.js.map",
+    "787.bc0fe9d4.chunk.js.map": "/foods-app-react/static/js/787.bc0fe9d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9afeb671.css",
+    "static/js/main.e862a7c6.js"
+  ]
+}
